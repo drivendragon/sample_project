@@ -1,0 +1,24 @@
+{
+  "test_scenario": {
+    "test_name" : "valid login",
+    "test_link": "http://3.16.37.143/",
+    "username": "same@sam.com",
+    "password": "samsamsam",
+    "verify": "wall"
+  },
+  "test_scenario": {
+    "test_name" : "invalid username",
+    "test_link": "http://3.16.37.143/",
+    "username": "))))",
+    "password": "samsamsam",
+    "verify": "Email not found in DB."
+  },
+  "test_scenario": {
+    "test_name": "invalid password",
+    "invalid_password_scenario": {
+    "test_link": "http://3.16.37.143/",
+    "username": "sam@sam.com",
+    "password": "1",
+    "verify": "Incorrect email/password combination"
+  }
+}
