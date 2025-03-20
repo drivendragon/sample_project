@@ -1,8 +1,8 @@
 {
   "test_scenario": {
-    "test_name" : "valid login",
+    "test_name" : "testOne",
     "test_link": "www.DrivenDragonsVBA.com",
-    "username": "same@sam.com",
+    "username": "john.doe@example.com",
     "password": "samsamsam",
     "verify": "wall"
   }

@@ -1,0 +1,38 @@
+[
+    {  
+   "testURL" : "https://www.saucedemo.com/",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "verify": "Products",
+    "scenario": "valid_login"
+  },
+  {
+    "testURL" : "https://www.saucedemo.com/",
+    "username": "invalid_username",
+    "password": "invalid_password",
+    "verify": "Username and password do not match any user in this service",
+    "scenario": "invalid_credentials"
+   },
+   {
+    "testURL" : "https://www.saucedemo.com/",
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "verify": "Sorry, this user has been locked out.",
+    "scenario": "locked_out_user"
+   },
+   {
+    "testURL" : "https://www.saucedemo.com/",
+    "username": "",
+    "password": "secret_sauce",
+    "verify": "Username is required",
+    "scenario": "missing_username"
+   },
+   {
+    "testURL" : "https://www.saucedemo.com/",
+    "username": "standard_user",
+    "password": "",
+    "verify": "Password is required",
+    "scenario": "missing_password"
+   }
+  ]
+
